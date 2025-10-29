@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <link rel="icon" href="./luxury.jpg" type="image/x-icon">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .profile-card {
+      background: rgb(179, 116, 116);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 30px;
+      width: 300px;
+    }
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .profile-card h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+    }
+    .profile-card p {
+      color: #151212;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .profile-card a {
+      text-decoration: none;
+      color: #0078D4;
+      margin: 0 10px;
+      font-size: 16px;
+    }
+    .glow-button {
+      display: inline-block;
+      padding: 14px 28px;
+      font-size: 18px;
+      color: white;
+      background-color:crimson;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+      transition: box-shadow 0.3s ease, transform 0.2s ease;
+    }
+
+    .glow-button:active {
+      box-shadow: 0 0 20px palevioletred;
+      transform: scale(1.05);
+    }
+
+    .profile-info {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="./Ela.jpg" alt="Profile Photo">
+    <h2>MUKISA JOY</h2>
+    <p>Web Developer & Designer</p>
+    <p>Email : katojoseph@yahoo.com</p>
+    <p>Contact : +256 776897654</p>
+    <p>I love to code and create websites</p>
+    <a href="joy cv.html" class="glow-button">View My CV</a>
+
+  </div>
+
+</body>
+</html>
